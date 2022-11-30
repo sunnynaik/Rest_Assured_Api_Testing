@@ -113,7 +113,13 @@
                      <suiteXmlFile>testng.xml</suiteXmlFile>
                   </suiteXmlFiles>
                </configuration>
-            </plugin>     
+            </plugin> 
+	<plugin>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-compiler-plugin</artifactId>
+	    <version>3.8.0</version>
+	</plugin>
+
          </plugins>
       </build>
 	
