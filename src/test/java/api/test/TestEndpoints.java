@@ -165,5 +165,16 @@ public class TestEndpoints {
         System.out.println("********  "+this.userPayload.getUserName()+" is deleted *************");
 
     }
+    
+     @AfterTest
+      public void afterTest()
+
+    {
+
+        String[] cmd = {"allure", "serve","/allure-results"};
+        Runtime.getRuntime().exec(cmd);
+
+    }
+     
 
 }
