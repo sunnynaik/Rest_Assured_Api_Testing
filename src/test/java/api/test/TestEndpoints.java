@@ -166,15 +166,15 @@ public class TestEndpoints {
 
     }
     
-     @AfterTest
-      public void afterTest()
+//      @AfterTest
+//       public void afterTest()
 
-    {
+//     {
 
-        String[] cmd = {"allure", "serve","/allure-results"};
-        Runtime.getRuntime().exec(cmd);
+//         String[] cmd = {"allure", "serve","/allure-results"};
+//         Runtime.getRuntime().exec(cmd);
 
-    }
+//     }
      
 
 }
